@@ -42,7 +42,7 @@ const ThisDayInfo = () => {
           )}
         </>
       </div>
-      <img src={cloud} alt='облако'/>
+      <img className={styles.cloud_img} src={cloud} alt='облако'/>
     </div>
   );
 };
