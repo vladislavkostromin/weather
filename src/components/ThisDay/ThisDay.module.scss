@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.this_day{
+  max-width: 400px;
+  width: 100%;
+  background: $lite-background;
+  padding: 20px;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  .time,
+  .city{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: $lite-gray;
+  }
+  .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    .temp{
+      font-weight: 500;
+      font-size: 96px;
+      line-height: 117px;
+      color: $primary-color;
+    }
+    .day{
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 49px;
+      color: #000;
+    }
+  }
+}
