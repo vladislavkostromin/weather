@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import styles from './Days.module.scss'
+import Tabs from './Tabs';
 
 export interface IDay {
   day_val: string;
@@ -71,11 +72,14 @@ const Days = () => {
     },
   ];
   return (
-    <div className={styles.days}>
-      {days.map((day: IDay) => (
-        <Card day={day} key={day.day_val} />
-      ))}
-    </div>
+    <>
+      <Tabs />
+      <div className={styles.days}>
+        {days.map((day: IDay) =>
+          <Card day={day} key={day.day_val} />
+        )}
+      </div>
+    </>
   );
 };
 
