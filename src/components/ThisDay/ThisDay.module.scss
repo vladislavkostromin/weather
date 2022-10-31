@@ -3,7 +3,7 @@
 .this_day{
   max-width: 400px;
   width: 100%;
-  background: $lite-background;
+  background: var(#{--components-background-default});
   padding: 20px;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
@@ -12,7 +12,7 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    color: $lite-gray;
+    color: $base-color;
   }
   .top{
     display: flex;
@@ -29,7 +29,7 @@
       font-weight: 400;
       font-size: 40px;
       line-height: 49px;
-      color: #000;
+      color: var(#{--text-color-default});
     }
   }
 }

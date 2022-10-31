@@ -11,7 +11,7 @@
   max-width: 750px;
   width: 100%;
   padding: 40px;
-  background: $lite-background;
+  background: $light-background;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
   .close{
@@ -61,6 +61,6 @@
   .day_time,
   .day_city{
     font-size: 15px;
-    color: $lite-gray;
+    color: $base-color;
   }
 }

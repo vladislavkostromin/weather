@@ -1,6 +1,5 @@
 import React from 'react';
 import GlobalSvgSelector from '../../assets/GlobalSvgSelector';
-import { Iitem } from '../ThisDayInfo/ThisDayInfo';
 import ThisDayItem from '../ThisDayInfo/ThisDayItem';
 import styles from './Popup.module.scss'
 
